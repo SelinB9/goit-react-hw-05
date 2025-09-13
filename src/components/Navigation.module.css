@@ -1,0 +1,16 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px 100px 10px 20px;
+    /* üst 10px, sağ 40px, alt 10px, sol 20px */
+    display: flex;
+    justify-content: flex-end;
+    /* linkleri sağa hizala */
+    gap: 40px;
+    /* linkler arası boşluk */
+    box-sizing: border-box;
+    z-index: 1000;
+}
